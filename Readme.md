@@ -18,3 +18,10 @@ Yes! There's a method called -(float)realHeight which you can implement in your 
 ###Are there some example folders?
 
 Yes, there are! Take a look at [this stopwatch folder](https://github.com/maxkatzmann/Velox-Stopwatch) by Max katzmann or [that 'Carrox' folder](https://github.com/hbang/Carrox) by thekirbylover 
+
+###What is the Velox.h file for?
+
+This is the header of the velox manager. You can use the methods to set custom options for your folder plugin like the folder arrow background image, or dim the notch shadow.
+Example usage:
+		[[objc_getClass("Velox") sharedManager] setAdjustsNotchShadow:YES];
+Don't forget to #import "Velox.h" and #import <objc/runtime.h>
