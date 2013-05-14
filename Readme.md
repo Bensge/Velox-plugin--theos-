@@ -23,5 +23,5 @@ Yes, there are! Take a look at [this stopwatch folder](https://github.com/maxkat
 
 This is the header of the velox manager. You can use the methods to set custom options for your folder plugin like the folder arrow background image, or dim the notch shadow.
 Example usage:
-		[[objc_getClass("Velox") sharedManager] setAdjustsNotchShadow:YES];
-Don't forget to #import "Velox.h" and #import <objc/runtime.h>
+		```[[objc_getClass("Velox") sharedManager] setAdjustsNotchShadow:YES];```
+Don't forget to ```#import "Velox.h"``` and ```#import <objc/runtime.h>```
